@@ -66,8 +66,11 @@ versionName "1.0" <= 유저에게 보여짐
 https://capacitorjs.com/docs/apis/splash-screen
 
 ### status-bar
-https://capacitorjs.com/docs/apis/status-bar
+[문서보기](package-status-bar.md)
 
+
+### Local Notification
+[문서보기](package-local-notificaion.md)
 
 ### 앱에 광고를 달자 - ADMOB
 [문서보기](package-admob.md)
