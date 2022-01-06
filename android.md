@@ -18,3 +18,18 @@ Event Log에서 메시지 확인
 locate 선택하면 생성된 폴더로 이동
 ![alt apk 생성](assets/images/android-studio6.png)
 
+## Logcat
+Logcat을 이용하면 javascript의 log로 출력되는 정보를 확인할 수 있습니다.
+
+![alt Logcat](assets/images/android-studio8.png)
+![alt Logcat](assets/images/android-studio7.png)
+
+
+[error]
+You can't rollout this release because it doesn't allow any existing users to upgrade to the newly added app bundles.
+[solution]
+안드로이드 스튜디오
+Project > android > app > build.gradle
+versionCode 10102
+versionName "1.2"
+이 기존 버젼보다 높아야 함

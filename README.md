@@ -26,7 +26,7 @@ android/app/src/main/assets 에 capacitor.coinfig.json 파일을 생성
 npx cap copy
 ```
 ## 1 시간만에 만들기
-
+[angular + capacitor + android studio 를 이용하여 앱만들기](build-app-in-1hour.md)
 ### Android App
 open the project in Android Studio
 ```
@@ -43,7 +43,14 @@ ng build
 npx cap copy
 이후 안드로이드 스튜디오에러 run or debug
 
-[안드로이드 스튜디오에서 APK 만들기](android.md)
+android > app > build.gradle
+versionCode 1   <= 유저에게는 보여지지 않음, 정수로 계속 올려야 함
+versionName "1.0" <= 유저에게 보여짐
+
+
+
+
+[안드로이드 스튜디오 간단한 사용법](android.md)
 
 ## 중요 package 사용법
 
@@ -134,3 +141,7 @@ android/app/src/main/res/values/strings.xml
 ```
 <string name="admob_app_id">[APP_ID]</string>
 ```
+capacitor-community/native-market  2.0 에서만 동작하므로 아래 것을 다운 받아서 처리
+npm i https://github.com/hermitdemschoenenleben/native-market
+
+
