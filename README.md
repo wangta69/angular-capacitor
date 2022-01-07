@@ -22,6 +22,9 @@ npx cap add ios
 ## 1 시간만에 만들기
 [angular + capacitor + android studio 를 이용하여 앱만들기](build-app-in-1hour.md)
 
+## Angular Basic Setting
+[angular 설치](angular-set-basic.md)
+
 ## 안드로이드 스튜디어 사용법
 [안드로이드 스튜디오 간단한 사용법](android.md)
 
@@ -55,7 +58,7 @@ versionName "1.0" <= 유저에게 보여짐
 
 
 
-## 중요 package 사용법
+## 주요 Capacitor package 사용법
 
 ### 앱 아이콘 및 Splash Screens 용 이미지 제작
 [문서보기](package-creating-splash-screens-and-icons.md)
@@ -75,8 +78,15 @@ https://capacitorjs.com/docs/apis/splash-screen
 ### 앱에 광고를 달자 - ADMOB
 [문서보기](package-admob.md)
 
+### 파일다루기 (FileSystem)
+[문서보기](package-filesystem.md)
+
+
 
 capacitor-community/native-market  2.0 에서만 동작하므로 아래 것을 다운 받아서 처리
 npm i https://github.com/hermitdemschoenenleben/native-market
 
 
+## 주요 Angular Package 사용법
+### 다국어 설정
+[문서보기](ngx-translate.md)
