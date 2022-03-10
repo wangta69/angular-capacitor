@@ -1,6 +1,11 @@
 # Local Notification
 [공식 문서](https://capacitorjs.com/docs/apis/local-notifications#scheduleon)
 
+## Install
+```
+npm install @capacitor/local-notifications
+npx cap sync
+```
 
 ```
 public async schedule(notification: any): Promise<void> {
