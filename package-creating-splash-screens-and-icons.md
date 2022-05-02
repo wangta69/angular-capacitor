@@ -44,3 +44,13 @@ Error occurred while copying resources\android\icon\mdpi-foreground.png
 432x432 크기의  icon-background.png  및 icon-foreground.png 만들어
 <Project Directory>/resources/android/ 폴더에 넣는다.
 ```
+
+## 등록시 필요이미지
+### App 제작시 필요한  이미지
+- icon.png : 1024 x 1024
+- splash.png : 2732 x 2732
+- icon-background.png & icon-foreground.png : 432 x 432  (icon.png의 사이즈를 줄여서 사용해도 무방)
+
+### Android 등록시 필요한 이미지
+- App Icon : 512 x 512
+- Feature graphic 1024x500

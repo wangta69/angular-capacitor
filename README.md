@@ -84,9 +84,15 @@ https://capacitorjs.com/docs/apis/splash-screen
 
 
 capacitor-community/native-market  2.0 에서만 동작하므로 아래 것을 다운 받아서 처리
+```
 npm i https://github.com/hermitdemschoenenleben/native-market
-
+```
 
 ## 주요 Angular Package 사용법
 ### 다국어 설정
 [문서보기](ngx-translate.md)
+
+## APP Market 등록
+### Google Play
+[문서보기](market-google-play.md)
+### App Store

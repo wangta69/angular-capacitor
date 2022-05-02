@@ -47,3 +47,9 @@ android:value="@string/admob_app_id"/>
 ```
 <string name="admob_app_id">[APP_ID]</string>
 ```
+
+
+### 몇몇 주요 options
+```
+tagForChildDirectedTreatment :어린이를 대상으로 할 경우 이부분을 true로 벼경
+```
