@@ -95,7 +95,10 @@ dist/
 Build > Generate Signed Bundle / APK...
 ![alt apk 생성](assets/images/android-studio1.png)
 
-APK선택 > Next
+<!-- 두가지 방식이 있는데 Android App Bundle 을 추천 
+### Android App Bundle -->
+
+### APK선택 > Next
 ![alt apk 생성](assets/images/android-studio2.png)
 Key Store path에서 만약 기존 키가 있으면 불러오시면 되는데 현재 처음 키이므로 새로운 키를 만들겠습니다.
 이때 중요한 것은 만들어진 키와 패스워드를 반드시 별도 보관하시기 바랍니다.

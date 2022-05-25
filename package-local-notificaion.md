@@ -1,6 +1,6 @@
 # Local Notification
 [공식 문서](https://capacitorjs.com/docs/apis/local-notifications#scheduleon)
-
+[추천 예제](https://catchconsole.com/code-example/ionic-capacitor-local-notification)
 ## Install
 ```
 npm install @capacitor/local-notifications
