@@ -51,7 +51,7 @@ const notification = {
 
 ```
 
-### 특정시간
+### 특정시간마다
 ```
 const randomId = Math.floor(Math.random() * 10000) + 1;
 const notification = {
@@ -60,7 +60,7 @@ const notification = {
   id: randomId,
   schedule: {
       at: new Date(Date.now() + 1000 * 60), // in a minute
-      repeats: true,
+      allowWhileIdle: true,
   },
 };
 
