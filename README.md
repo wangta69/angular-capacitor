@@ -90,8 +90,8 @@ npm i https://github.com/hermitdemschoenenleben/native-market
 
 ## 주요 Angular Package 사용법
 ### 다국어 설정
-[문서보기](ngx-translate.md)
-
+[app 의 다국어 번역](ngx-translate.md)
+[앱아이콘의 다국어 출력](mutilangual-app.md)
 ## APP Market 등록
 ### Google Play
 [문서보기](market-google-play.md)
