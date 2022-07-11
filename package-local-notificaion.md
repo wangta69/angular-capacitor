@@ -51,7 +51,7 @@ const notification = {
 
 ```
 
-### 특정시간마다
+### 특정시간마다 ***
 ```
 const randomId = Math.floor(Math.random() * 10000) + 1;
 const notification = {
@@ -65,3 +65,22 @@ const notification = {
 };
 
 ```
+
+## 알람시 사용자 아이콘 설정
+capacitor.config.ts
+```
+const config: CapacitorConfig = {
+  .....................
+  plugins: {
+    .....................
+   LocalNotifications: {
+    smallIcon: "ic_stat_icon",
+    iconColor: "#488AFF",
+    sound: "beep.wav",
+  },
+ },
+};
+```
+확장자를 제외한후 smallIcon에 이미지 파일 명을 넣어둔다.
+그리고
+android > app > src > main > res > drawable 에 ic_stat_icon.png를 넣어두면 된다.
