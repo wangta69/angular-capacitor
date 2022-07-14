@@ -20,13 +20,13 @@ npx cap add ios
 ```
 
 ## 1 시간만에 만들기
-[angular + capacitor + android studio 를 이용하여 앱만들기](build-app-in-1hour.md)
+[angular + capacitor + android studio 를 이용하여 앱만들기](documents/build-app-in-1hour.md)
 
 ## Angular Basic Setting
-[angular 설치](angular-set-basic.md)
+[angular 설치](documents/angular-set-basic.md)
 
 ## 안드로이드 스튜디어 사용법
-[안드로이드 스튜디오 간단한 사용법](android.md)
+[안드로이드 스튜디오 간단한 사용법](documents/android.md)
 
 ## 자주사용하는 명령어
 angular 에서 작업한 내용을 build 한다.
@@ -61,7 +61,7 @@ versionName "1.0" <= 유저에게 보여짐
 ## 주요 Capacitor package 사용법
 
 ### 앱 아이콘 및 Splash Screens 용 이미지 제작
-[문서보기](package-creating-splash-screens-and-icons.md)
+[문서보기](documents/package-creating-splash-screens-and-icons.md)
 
 ### Live Reload
 
@@ -69,17 +69,17 @@ versionName "1.0" <= 유저에게 보여짐
 https://capacitorjs.com/docs/apis/splash-screen
 
 ### status-bar
-[문서보기](package-status-bar.md)
+[문서보기](documents/package-status-bar.md)
 
 
 ### Local Notification
-[문서보기](package-local-notificaion.md)
+[문서보기](documents/package-local-notificaion.md)
 
 ### 앱에 광고를 달자 - ADMOB
-[문서보기](package-admob.md)
+[문서보기](documents/package-admob.md)
 
 ### 파일다루기 (FileSystem)
-[문서보기](package-filesystem.md)
+[문서보기](documents/package-filesystem.md)
 
 
 
@@ -90,12 +90,12 @@ npm i https://github.com/hermitdemschoenenleben/native-market
 
 ## 주요 Angular Package 사용법
 ### 다국어 설정
-[app 의 다국어 번역](ngx-translate.md)
-[앱아이콘의 다국어 출력](mutilangual-app.md)
+[app 의 다국어 번역](documents/ngx-translate.md)
+[앱아이콘의 다국어 출력](documents/mutilangual-app.md)
 ## APP Market 등록
 ### Google Play
-[문서보기](market-google-play.md)
+[문서보기](documents/market-google-play.md)
 ### App Store
 
 ### LIVE RELOAD
-[문서보기](live-reload.md)
+[문서보기](documents/live-reload.md)
