@@ -63,8 +63,6 @@ versionName "1.0" <= 유저에게 보여짐
 ### 앱 아이콘 및 Splash Screens 용 이미지 제작
 [문서보기](documents/package-creating-splash-screens-and-icons.md)
 
-### Live Reload
-
 ### SplashScreen
 https://capacitorjs.com/docs/apis/splash-screen
 
@@ -83,6 +81,8 @@ https://capacitorjs.com/docs/apis/splash-screen
 
 
 
+
+
 capacitor-community/native-market  2.0 에서만 동작하므로 아래 것을 다운 받아서 처리
 ```
 npm i https://github.com/hermitdemschoenenleben/native-market
@@ -96,6 +96,9 @@ npm i https://github.com/hermitdemschoenenleben/native-market
 ### Google Play
 [문서보기](documents/market-google-play.md)
 ### App Store
-
-### LIVE RELOAD
+### Share (social share)
+[문서보기](documents/share.md)
+### Keep Awake (앱이 sleep 하지 않게 하기)
+[문서보기](documents/community-keep-awake.md)
+## LIVE RELOAD
 [문서보기](documents/live-reload.md)
