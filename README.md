@@ -98,6 +98,8 @@ npm i https://github.com/hermitdemschoenenleben/native-market
 ### App Store
 ### Share (social share)
 [문서보기](documents/share.md)
+### App link & Intent
+[문서보기](documents/applint-intent.md)
 ### Keep Awake (앱이 sleep 하지 않게 하기)
 [문서보기](documents/community-keep-awake.md)
 ## LIVE RELOAD
