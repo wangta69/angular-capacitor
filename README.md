@@ -104,3 +104,9 @@ npm i https://github.com/hermitdemschoenenleben/native-market
 [문서보기](documents/community-keep-awake.md)
 ## LIVE RELOAD
 [문서보기](documents/live-reload.md)
+## CHROME DEBUGGING
+[문서보기](documents/chrome-debugging.md)
+
+## 에러처리
+[문서보기](documents/error.md)
+
