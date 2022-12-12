@@ -84,6 +84,11 @@ dist/
 ```
 ![alt 안드로이드 추가](assets/images/simple-app3.png)
 
+## 구글클라우드콘솔 사용법
+https://console.cloud.google.com/
+
+OAuth 클라이언트 ID 만들기(안드로이드)
+SHA-1 인증서 디지털 지문.. 안드로이드 스튜디오 > build > generate signed Bundle /APK에서 가 > Android App Bundle > create new
 
 ## 안드로이드 스튜디오
 안드로이드 스튜디오를 열겠습니다. 여기서는 안드로이드 스튜디오의 기본 세팅이 마무리되었다는 가정하에서 진행하겠습니다.
@@ -95,7 +100,7 @@ dist/
 Build > Generate Signed Bundle / APK...
 ![alt apk 생성](assets/images/android-studio1.png)
 
-<!-- 두가지 방식이 있는데 Android App Bundle 을 추천 
+<!-- 두가지 방식이 있는데 Android App Bundle 을 추천
 ### Android App Bundle -->
 
 ### APK선택 > Next
