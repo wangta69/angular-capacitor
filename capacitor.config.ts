@@ -6,7 +6,7 @@ const config: CapacitorConfig = {
   webDir: 'dist/angular-capacitor',
   bundledWebRuntime: false,
  server: {
-      url: 'http://192.168.0.21:4200',
+      url: 'http://192.168.0.21:8100',
       cleartext: true
   }
 };

@@ -35,7 +35,12 @@ ng build
 ```
 build된 내용을 native platforms 의 public 으로 옮기고 capacitor.config.json 파일을 생성한다.
 ```
+--- www folder update
 npx cap copy
+--- capacitor update
+npx cap update
+--- www | capacitor update
+npx cap sync
 ```
 open the project in Android Studio
 ```
@@ -75,6 +80,9 @@ https://capacitorjs.com/docs/apis/splash-screen
 
 ### 앱에 광고를 달자 - ADMOB
 [문서보기](documents/package-admob.md)
+
+### 결제시스템  - Purchase
+[문서보기](documents/package-purchase.md)
 
 ### 파일다루기 (FileSystem)
 [문서보기](documents/package-filesystem.md)

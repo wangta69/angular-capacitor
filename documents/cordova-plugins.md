@@ -14,3 +14,28 @@ npm install @awesome-cordova-plugins/plugin-name
 npm install cordova-plugin-name@version
 npx cap sync
 ```
+
+### @awesome-cordova-plugins
+module.ts
+```
+import { InAppBrowser } from '@awesome-cordova-plugins/in-app-browser/ngx';
+@NgModule({
+    providers: [
+        InAppBrowser
+    ],
+
+})
+
+```
+component.ts
+```
+import { InAppBrowser } from '@awesome-cordova-plugins/in-app-browser/ngx';
+constructor(
+        private iab: InAppBrowser,
+    ) {
+
+    }
+
+    const browser = this.iab.create(URL);
+
+```
