@@ -84,6 +84,10 @@ https://capacitorjs.com/docs/apis/splash-screen
 ### 결제시스템  - Purchase
 [문서보기](documents/package-purchase.md)
 
+### Social Login
+[문서보기](documents/social-login.md)
+
+
 ### 파일다루기 (FileSystem)
 [문서보기](documents/package-filesystem.md)
 
