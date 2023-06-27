@@ -94,7 +94,7 @@ https://capacitorjs.com/docs/apis/splash-screen
 
 
 
-
+### Market
 capacitor-community/native-market  2.0 에서만 동작하므로 아래 것을 다운 받아서 처리
 ```
 npm i https://github.com/hermitdemschoenenleben/native-market

@@ -9,6 +9,7 @@ https://github.com/capacitor-community/admob
 % npm install --save @capacitor-community/admob
 % npx cap update
 ```
+## Android
 아래와 같이 수정을 하자
 ### android/app/src/main/java/ ** / ** /MainActivity.java
 registerPlugin(com.getcapacitor.community.admob.AdMob.class); 추가
@@ -53,4 +54,22 @@ android:value="@string/admob_app_id"/>
 ```
 tagForChildDirectedTreatment :어린이를 대상으로 할 경우 이부분을 true로 벼경
 isTesting: true,
+```
+
+##IOS
+Add the following in the ios/App/App/info.plist file inside of the outermost <dict>:
+```
+<key>GADIsAdManagerApp</key>
+<true/>
+<key>GADApplicationIdentifier</key>
+<string>[APP_ID]</string>
+<key>SKAdNetworkItems</key>
+<array>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>cstr6suwn9.skadnetwork</string>
+  </dict>
+</array>
+<key>NSUserTrackingUsageDescription</key>
+<string>[Why you use NSUserTracking. ex: This identifier will be used to deliver personalized ads to you.]</string>
 ```
